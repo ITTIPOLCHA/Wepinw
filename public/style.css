@@ -1,0 +1,70 @@
+* {
+  font-size: 0.8rem;
+}
+
+html {
+  font-size: calc(60% + 0.8vmin);
+  text-align: center;
+}
+
+img {
+  width: 25rem;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  margin: 0; /* Removes default margins */
+  padding: 0; /* Removes default padding */
+  background-size: cover; /* Adjusts the image to fit the screen */
+  background-repeat: no-repeat; /* Image will not repeat */
+  background-position: center; /* Image will be centered */
+  min-height: 100vh; /* Make sure the background covers the entire screen */
+  display: flex; /* Allows for centering of the text container */
+  align-items: center; /* Centers the text container vertically */
+  justify-content: center; /* Centers the text container horizontally */
+}
+
+main {
+  max-width: 25rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.1rem 0.1rem;
+  cursor: pointer;
+  border-radius: 0.6rem;
+}
+
+.b{
+  color: black;
+  text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+.w{
+  color: white;
+  text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+input[type="radio"] {
+  height: 1.4rem;
+  width: 1.4rem;
+  border: 0.5rem solid black;
+  margin: 0.4rem 0.3rem;
+}
+
+/* Specify selected radio button style */
+input[type="radio"]:checked {
+  background-color: black;
+}
